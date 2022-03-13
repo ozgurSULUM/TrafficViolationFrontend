@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import axios from './services/axios';
 import socket from './services/socketio';
 import './css/App.css';
-import Tabs from './components/Tabs';
+import Tabs from './components/Tabs/Tabs';
 import theme from './services/theme';
 import { ThemeProvider } from '@mui/material/styles';
 

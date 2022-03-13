@@ -7,7 +7,7 @@ import Box from '@mui/material/Box';
 import { Typography } from '@mui/material';
 
 const ViolationList = (props) => {
-    const { violations, selectedViolation, setSelectedViolation } = props;
+    const { violations, setSelectedViolation } = props;
     return (
         <>
             <Typography
@@ -44,7 +44,7 @@ const ViolationList = (props) => {
                         })
                         :
                         <ListItem disablePadding>
-                            <ListItemButton disabled>
+                            <ListItemButton data-testid="empty-list-button" disabled>
                                 <ListItemText primary={'Empty'} />
                             </ListItemButton>
                         </ListItem>
