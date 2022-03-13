@@ -12,6 +12,7 @@ function TabPanel(props) {
             role="tabpanel"
             hidden={value !== index}
             id={`simple-tabpanel-${index}`}
+            data-testid={`simple-tabpanel-${index}`}
             aria-labelledby={`simple-tab-${index}`}
             {...other}
         >
@@ -49,8 +50,8 @@ export default function BasicTabs(props) {
             <Box sx={{ borderBottom: 1, borderColor: 'divider' }}>
                 <Tabs value={value} onChange={handleChange} aria-label="basic tabs example">
                     <Tab data-testid="violation1" label="Violation1" {...a11yProps(0)} />
-                    <Tab label="Violation2" {...a11yProps(1)} />
-                    <Tab label="Violation3" {...a11yProps(2)} />
+                    <Tab data-testid="violation2" label="Violation2" {...a11yProps(1)} />
+                    <Tab data-testid="violation3" label="Violation3" {...a11yProps(2)} />
                 </Tabs>
             </Box>
             <TabPanel value={value} index={0}>
