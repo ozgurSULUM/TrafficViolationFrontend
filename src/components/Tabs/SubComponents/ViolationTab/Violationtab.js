@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import Grid from '@mui/material/Grid';
-import ViolationList from './ViolationList';
-import ViolationVideo from './ViolationVideo';
+import ViolationList from './SubComponents/ViolationList/ViolationList';
+import ViolationVideo from './SubComponents/ViolationVideo/ViolationVideo';
 const Violationtab = (props) => {
     const [selectedViolation, setSelectedViolation] = useState({});
     return (
@@ -13,7 +13,6 @@ const Violationtab = (props) => {
                 <Grid item xs={4} sx={{ display: 'flex', flexDirection: 'column', justifyContent: 'start', alignItems: 'center' }}>
                     <ViolationList
                         violations={props.violations}
-                        selectedViolation={selectedViolation}
                         setSelectedViolation={setSelectedViolation} />
                 </Grid>
             </Grid>
