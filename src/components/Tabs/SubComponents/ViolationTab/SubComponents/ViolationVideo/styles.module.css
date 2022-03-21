@@ -1,0 +1,34 @@
+.idBadges {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  color: white;
+  text-align: center;
+  margin: 5px;
+  line-height: 30px;
+  background-color: black;
+  border-radius: 15px;
+  font-size: 0.8rem;
+  cursor: pointer;
+}
+
+.idListContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  float: right;
+  width: 30%;
+  height: auto;
+}
+
+.idList {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.videoStyle {
+  width: 70%;
+  height: auto;
+}

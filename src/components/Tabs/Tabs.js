@@ -48,7 +48,7 @@ export default function BasicTabs(props) {
     return (
         <Box sx={{ width: '100%' }}>
             <Box sx={{ borderBottom: 1, borderColor: 'divider' }}>
-                <Tabs value={value} onChange={handleChange} aria-label="basic tabs example">
+                <Tabs  value={value} onChange={handleChange} aria-label="basic tabs example">
                     <Tab data-testid="violation1" label="Violation1" {...a11yProps(0)} />
                     <Tab data-testid="violation2" label="Violation2" {...a11yProps(1)} />
                     <Tab data-testid="violation3" label="Violation3" {...a11yProps(2)} />
