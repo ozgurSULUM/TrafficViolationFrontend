@@ -10,7 +10,8 @@ This project created for our Traffic Violation Detection UI need.
 
 ---
 
-![image](https://user-images.githubusercontent.com/41192900/157745986-0d09606a-8992-44c7-8970-a2afbf464d35.png)
+![image](https://user-images.githubusercontent.com/41192900/159355508-ad8f828b-d50f-40dd-83be-c07a546e8bf1.png)
+
 
 
 
